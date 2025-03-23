@@ -1,0 +1,23 @@
+.projectsSection {
+    position: relative;
+    height: fit-content;
+    min-height: fit-content;
+    padding-bottom: 10rem;
+}
+
+.projectCardsContainer {
+    margin-top: 8rem;
+}
+
+.modalContent {
+    background-color: rgb(26, 26, 26);
+}
+
+/*Responsividade*/
+@media screen and (max-width: 768px) {
+
+    .projectCardsContainer {
+        margin-top: 4rem !important;
+    }
+
+}

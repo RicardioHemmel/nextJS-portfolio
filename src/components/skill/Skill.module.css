@@ -1,0 +1,58 @@
+.abilitiesFS {
+    font-size: 1.3em;
+}
+
+.starIcon {
+    width: 24px !important;
+    height: auto;
+    padding: 0px 2px;
+}
+
+@media screen and (max-width: 1280px) {
+    .abilitiesFS {
+        font-size: 1.6vw;
+    }
+
+    .starIcon {
+        width: 1.6vw;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 991px) {
+
+    .abilitiesFS {
+        font-size: 2.1vw;
+    }
+
+    .starIcon {
+        width: 2vw;
+        height: auto;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+
+    .abilitiesFS {
+        font-size: 2.8vw;
+    }
+
+    .starIcon {
+        width: 2.4vw;
+        height: auto;
+    }
+
+}
+
+@media screen and (max-width: 478px) {
+
+    .abilitiesFS {
+        font-size: 4.5vw;
+    }
+
+    .starIcon {
+        width: 3.5vw;
+        height: auto;
+    }
+}

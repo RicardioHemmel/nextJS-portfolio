@@ -1,0 +1,181 @@
+.aboutMeSection {
+    height: fit-content;
+    min-height: 100vh;
+    padding-bottom: 10rem;
+    position: relative;
+}
+
+.aboutMeContentContainer {
+    margin-top: 6rem;
+}
+
+.myPicture {
+    width: 370px;
+    background-color: #234A59;
+    border: solid #0E1518 4px;
+    box-shadow: -12px 7px 30px #000000;
+}
+
+.btnDownloadCv {
+    text-align: center;
+    background-color: #FAC83F;
+    border-radius: 2rem;
+    width: fit-content;
+    max-width: 190px;
+    text-decoration: none;
+    color: black;
+    z-index: 1;
+}
+
+.dataAboutMe {
+    width: 67%;
+}
+
+
+/*Responsividade*/
+
+@media screen and (max-width: 1280px) {
+    .myPicture {
+        width: 30vw;
+    }
+
+    .btnDownloadCv {
+        width: 13vw !important;
+        font-size: 1.5vw !important;
+    }
+
+    .containerAboutMeText h3 {
+        font-size: 2.3vw !important;
+    }
+
+    .containerAboutMeText h4 {
+        font-size: 1.7vw !important;
+    }
+
+    .containerAboutMeText p {
+        font-size: 1.7vw !important;
+    }
+
+    .basicDataAboutMe p,
+    .basicDataAboutMe span {
+        font-size: 1.5vw !important;
+    }
+
+}
+
+@media screen and (max-width: 991px) {
+
+    .myPicture {
+        width: 35vw;
+    }
+
+    .btnDownloadCv {
+        width: 16vw !important;
+        font-size: 1.9vw !important;
+    }
+
+    .containerAboutMeText h3 {
+        font-size: 2.4vw !important;
+    }
+
+    .containerAboutMeText h4 {
+        font-size: 2.1vw !important;
+    }
+
+    .containerAboutMeText p {
+        font-size: 2.1vw !important;
+    }
+
+    .basicDataAboutMe p,
+    .basicDataAboutMe span {
+        font-size: 1.8vw !important;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .myPicture {
+        width: 40vw;
+    }
+
+    .btnDownloadCv {
+        width: 20vw !important;
+        font-size: 1.9vw !important;
+    }
+
+    .aboutMeContentContainer {
+        margin-top: 4rem;
+    }
+
+    .containerAboutMeText {
+        text-align: center !important;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 2rem;
+    }
+
+    .containerAboutMeText > p {
+        width: 80%;
+        text-align: left;
+    }
+
+    .basicDataAboutMe p {
+        text-align: left;
+    }
+
+    .dataAboutMe {
+        width: 50%;
+    }
+
+    .containerAboutMeText {
+        gap: 0.8rem !important;
+    }
+
+    .containerAboutMeText h3 {
+        font-size: 3.2vw !important;
+    }
+
+    .containerAboutMeText h4 {
+        font-size: 3vw !important;
+    }
+
+    .containerAboutMeText p {
+        font-size: 2.6vw !important;
+    }
+
+    .basicDataAboutMe p,
+    .basicDataAboutMe span {
+        font-size: 2.3vw !important;
+    }
+
+}
+
+@media screen and (max-width: 478px) {
+
+    .myPicture {
+        width: 50vw;
+    }
+
+    .btnDownloadCv {
+        width: 30vw !important;
+        font-size: 2.4vw !important;
+    }
+
+    .containerAboutMeText h3 {
+        font-size: 4.7vw !important;
+    }
+
+    .containerAboutMeText h4 {
+        font-size: 4.2vw !important;
+    }
+
+    .containerAboutMeText p {
+        font-size: 4vw !important;
+    }
+
+    .basicDataAboutMe p,
+    .basicDataAboutMe span {
+        font-size: 3.5vw !important;
+        margin-right: 5rem;
+    }
+}

@@ -1,0 +1,50 @@
+.navbarComponent {
+    padding-top: 1.5rem;
+    transition: ease-in-out 0.4s !important;
+}
+
+.navMainContainer {
+    width: 90%;
+}
+
+.navSpacing {
+    width: 13%;
+}
+
+.navbarTogglerDemo02 ul li {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+.telIcon {
+    width: 22px;
+}
+
+.navBarTransitionEffect {
+    padding-top: 0;
+}
+
+.navBarBackgroundColor {
+    background-color: #0E1518;
+}
+
+/*--------------Responsividade----------------*/
+
+@media screen and (max-width: 991px) {
+    .contactHeader {
+        display: none !important;
+    }
+
+    .toggleNavBarBackground {
+        background-color: #0E1518;
+        transition: ease-in-out 0.4s !important;
+    }
+
+}
+
+@media screen and (max-width: 478px) {
+    .portfolioText {
+        opacity: 0;
+    }
+}

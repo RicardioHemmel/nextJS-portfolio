@@ -1,0 +1,179 @@
+.abilitiesSection {
+    position: relative;
+    height: fit-content;
+    min-height: fit-content;
+    padding-bottom: 10rem;
+}
+
+.abilitiesContentContainer {
+    margin-top: 6rem;
+}
+
+.technicalSkillsText h3 {
+    font-size: 2.2em !important;
+}
+
+.technicalSkillsText p {
+    font-size: 1.3em !important;
+    margin-top: 2.3rem;
+}
+
+.technicalSkillsBox p {
+    font-size: 1.1em;
+}
+
+.professionalQualifications h3 {
+    font-size: 2.2em !important;
+}
+
+.professionalQualifications p {
+    font-size: 1.3em !important;
+    margin-top: 2.3rem;
+}
+
+.divisoryLine {
+    width: 60%;
+    margin: 7rem auto;
+}
+
+.behavioralSkillsList li::marker {
+    color: #FAC83F;
+}
+
+/*Responsividade*/
+
+@media screen and (max-width: 1280px) {
+
+    .technicalSkillsText h3 {
+        font-size: 2.8vw !important;
+    }
+
+    .technicalSkillsText p {
+        font-size: 1.7vw !important;
+        margin-top: 2rem;
+    }
+
+    .technicalSkillsBox div img {
+        width: 1.6vw;
+        height: auto;
+    }
+
+    .professionalQualifications h3 {
+        font-size: 2.8vw !important;
+    }
+
+    .professionalQualifications p {
+        font-size: 1.7vw !important;
+        margin-top: 2rem;
+    }
+
+    .behavioralSkillsList ul li {
+        font-size: 1.9vw !important;
+    }
+
+}
+
+@media screen and (max-width: 991px) {
+
+    .technicalSkillsText h3 {
+        font-size: 3vw !important;
+    }
+
+    .technicalSkillsText p {
+        font-size: 2.1vw !important;
+        margin-top: 2rem;
+    }
+
+
+    .professionalQualifications h3 {
+        font-size: 3vw !important;
+    }
+
+    .professionalQualifications p {
+        font-size: 2.1vw !important;
+        margin-top: 2rem;
+    }
+
+    .behavioralSkillsList ul li {
+        font-size: 2.3vw !important;
+    }
+
+    .technicalSkillsText {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 1.2rem;
+    }
+
+    .abilitiesContentContainer {
+        margin-top: 5rem;
+    }
+
+    .professionalQualifications {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 2.5rem;
+    }
+
+    .behavioralSkillsList {
+        display: flex;
+        justify-content: center;
+    }
+
+    .behavioralSkillsList ul li {
+        font-size: 4vw;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .technicalSkillsText h3 {
+        font-size: 3.2vw !important;
+    }
+
+    .technicalSkillsText p {
+        font-size: 2.6vw !important;
+        margin-top: 2rem;
+    }
+
+    .professionalQualificationst h3 {
+        font-size: 3.2vw !important;
+    }
+
+    .professionalQualifications p {
+        font-size: 2.6vw !important;
+        margin-top: 2rem;
+    }
+
+    .behavioralSkillsList ul li {
+        font-size: 2.8vw !important;
+    }
+}
+
+@media screen and (max-width: 478px) {
+
+    .technicalSkillsText h3 {
+        font-size: 4.7vw !important;
+    }
+
+    .technicalSkillsText p {
+        font-size: 4vw !important;
+        margin-top: 2rem;
+        margin-left: 0.5rem;
+    }
+
+    .professionalQualifications h3 {
+        font-size: 4.7vw !important;
+    }
+
+    .professionalQualifications p {
+        font-size: 4vw !important;
+        margin-top: 2rem;
+        margin-left: 0.5rem;
+    }
+
+    .behavioralSkillsList ul li {
+        font-size: 4vw !important;
+    }
+}

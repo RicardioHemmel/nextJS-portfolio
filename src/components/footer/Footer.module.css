@@ -1,0 +1,75 @@
+.footerSection {
+    position: relative;
+    height: fit-content;
+    min-height: fit-content;
+    padding-bottom: 4rem;
+}
+
+.contactFooterImg {
+    aspect-ratio: 9/12;
+    width: 210px;
+}
+
+.footerIconsResize {
+    width: 36px;
+    height: 36px;
+}
+
+.contactMethodBox {
+    margin-top: 2.5rem;
+}
+
+.contactMethodBox > :nth-child(n+2) {
+    margin-top: 1rem;
+}
+
+/*Responsividade*/
+
+@media screen and (max-width: 991px) {
+
+    .footerContainer {
+        padding: 0rem 3rem;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+
+    .footerContainer {
+        padding: 0rem 1rem;
+    }
+
+    .contactFooterImg {
+        width: 25vw;
+        margin-top: 3rem;
+    }
+
+    .footerIconsResize {
+        width: 29px;
+        height: 29px;
+    }
+
+    .contactMethodBox p {
+        font-size: 1.2em !important;
+    }
+
+}
+
+@media screen and (max-width: 500px) {
+
+    .contactMethodBox p {
+        font-size: 4vw !important;
+        margin-left: 0.5em !important;
+    }
+
+    .contactFooterImg {
+        width: 32vw;
+        margin-top: 3rem;
+    }
+
+    .footerIconsResize {
+        width: 6.5vw;
+        height: auto;
+    }
+
+}
