@@ -1,4 +1,6 @@
 import styles from "./ProjectCard.module.css";
+import Link from "next/link";
+import Image from "next/image";
 
 interface ProjectCardProps {
     title: string;
@@ -20,9 +22,15 @@ export function ProjectCard({
     linkUrl,
 }: ProjectCardProps) {
     return (
-        <div className={`card ${styles.projectCard} col col-9 col-md-8 col-lg-3 px-0 border-0 rounded-5`}>
+        <div className={`card ${styles.projectCard} col col-9 col-md-8 col-lg-3 px-0 border-0 rounded-5`} >
             <div className={`d-flex justify-content-center ${styles.backgroundProjects} rounded-4 py-5`}>
-                <img src={imgPath} className={`card-img-top ${styles.imgCardResize}`} alt={title} />
+                <Image
+                src={imgPath} 
+                className={`card-img-top ${styles.imgCardResize}`} 
+                alt={title}
+                width={100}
+                height={100}
+                />
             </div>
             <div className="card-body">
                 <h5 className={`${styles.cardTitle} jura yellow-text fs-4`}>{title}</h5>
@@ -37,9 +45,9 @@ export function ProjectCard({
                             </button>
                         )}
                         {linkUrl && linkText && (
-                            <a href={linkUrl} target="_blank" className={`btn ${styles.btnCheckout}`}>
+                            <Link href={linkUrl} target="_blank" className={`btn ${styles.btnCheckout}`}>
                                 {linkText}
-                            </a>
+                            </Link>
                         )}
                     </div>
                 </div>

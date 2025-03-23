@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import styles from "./Footer.module.css"
 
 export function Footer() {
@@ -15,37 +16,54 @@ export function Footer() {
 
                         {/* Caixa com métodos de contato */}
                         <div className={styles.contactMethodBox}>
+
                             {/* Outlook */}
-                            <a href="mailto:ricardo.helfstein@hotmail.com" target="_blank"
+                            <Link href="https://outlook.live.com/owa/?path=/mail/action/compose&to=ricardo.hemmel@hotmail.com&subject=Portf%C3%B3lio&body=Ol%C3%A1%20Ricardo%2C" target="_blank"
                                 className="d-flex align-items-center nav-link">
-                                <img className={styles.footerIconsResize} src="imgs/icons/outlookIcon.png"
-                                    alt="Ícone do Outlook"></img>
+                                <Image
+                                    className={styles.footerIconsResize}
+                                    src={`/imgs/icons/outlookIcon.png`}
+                                    alt="Ícone do Outlook"
+                                    width={100}
+                                    height={100} />
                                 <p className="m-0 fs-5 ms-4">ricardo.helfstein@hotmail.com</p>
-                            </a>
+                            </Link>
 
                             {/* Linkedin */}
-                            <a href="https://www.linkedin.com/in/ricardo-hemmel-a6b97626b/" target="_blank"
+                            <Link href="https://www.linkedin.com/in/ricardo-hemmel-a6b97626b/" target="_blank"
                                 className="d-flex align-items-center nav-link">
-                                <img className={styles.footerIconsResize} src="imgs/icons/linkedinIcon.png"
-                                    alt="Ícone do Linkedin"></img>
+                                <Image
+                                    className={styles.footerIconsResize}
+                                    src={`/imgs/icons/linkedinIcon.png`}
+                                    alt="Ícone do Linkedin"
+                                    width={100}
+                                    height={100} />
                                 <p className="m-0 fs-5 ms-4">Ricardo H. H. Conceição</p>
-                            </a>
+                            </Link>
 
                             {/* Github */}
-                            <a href="https://github.com/RicardioHemmel" target="_blank"
+                            <Link href="https://github.com/RicardioHemmel" target="_blank"
                                 className="d-flex align-items-center nav-link">
-                                <img className={styles.footerIconsResize} src="imgs/icons/githubIcon.png"
-                                    alt="Ícone do Github"></img>
+                                <Image
+                                    className={styles.footerIconsResize}
+                                    src={`/imgs/icons/githubicon.png`}
+                                    alt="Ícone do Github"
+                                    width={100}
+                                    height={100} />
                                 <p className="m-0 fs-5 ms-4">RicardioHemmel</p>
-                            </a>
+                            </Link>
 
                             {/* WhatsApp */}
-                            <a href="https://api.whatsapp.com/send?phone=5511944880786" target="_blank"
+                            <Link href="https://api.whatsapp.com/send?phone=5511944880786" target="_blank"
                                 className="d-flex align-items-center nav-link">
-                                <img className={styles.footerIconsResize} src="imgs/icons/whatsappIcon.png"
-                                    alt="Ícone do WhatsApp"></img>
+                                <Image
+                                    className={styles.footerIconsResize}
+                                    src={`/imgs/icons/whatsappIcon.png`}
+                                    alt="Ícone do Github"
+                                    width={100}
+                                    height={100} />
                                 <p className="m-0 fs-5 ms-4">11 94488-0786</p>
-                            </a>
+                            </Link>
 
                         </div>
                     </div>

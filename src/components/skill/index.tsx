@@ -1,4 +1,5 @@
 import styles from "./Skill.module.css";
+import Image from "next/image";
 
 type SkillProps = {
   skillName: string;
@@ -17,12 +18,15 @@ export function Skill({ skillName, rating, maxRating = 5 }: SkillProps) {
     <div className={`text-center px-3 py-4 ${styles.abilitiesFS}`}>
       <p className="p-0 m-0">{skillName}</p>
       {stars.map((star, index) => (
-        <img
+        <Image
           key={index}
-          src={`imgs/icons/${star}Star.png`}
+          src={`/imgs/icons/${star}Star.png`}
           alt={`${star} star`}
           className={styles.starIcon}
+          width={100}
+          height={100}
         />
+
       ))}
     </div>
   );

@@ -20,7 +20,7 @@ export function ProjectsSession() {
                     <ProjectCard
                         title="Alpha - Hardware Store"
                         description="Um aplicativo de e-commerce para peças de hardware, desenvolvido no Android Studio."
-                        imgPath="imgs/arts/alphaLogo.png"
+                        imgPath="/imgs/arts/alphaLogo.png"
                         modalText="Não Hospedado"
                         modalTarget="alphaModal"
                         linkText="Github"
@@ -57,7 +57,7 @@ export function ProjectsSession() {
                     <ProjectCard
                         title="Charlie Streetwear"
                         description="Um CRUD de administrador de uma loja de roupas. Projeto desenvolvido com linguagem de servidor PHP e Bootstrap."
-                        imgPath="imgs/arts/charlie.png"
+                        imgPath="/imgs/arts/charlie.png"
                         modalText="Não Hospedado"
                         modalTarget="charlieModal"
                         linkText="Github"
@@ -92,7 +92,7 @@ export function ProjectsSession() {
                     <ProjectCard
                         title="Fox - Loja de Brinquedos"
                         description="Um site em formato de ecommerce desenvolvido com Bootstrap, Laravel, Ajax, JS e PHP."
-                        imgPath="imgs/arts/fox.svg"
+                        imgPath="/imgs/arts/fox.svg"
                         modalText="Não Hospedado"
                         modalTarget="foxModal"
                         linkText="Github"
@@ -135,7 +135,7 @@ export function ProjectsSession() {
                     <ProjectCard
                         title="Facilita Sites"
                         description="Meu site profissional é especializado na captação de leads para a venda de páginas web desenvolvidas em WordPress."
-                        imgPath="imgs/arts/facilitaSites.png"
+                        imgPath="/imgs/arts/facilitaSites.png"
                         linkText="Visitar Página"
                         linkUrl="https://facilitasites.online/"
                     />
@@ -144,7 +144,7 @@ export function ProjectsSession() {
                     <ProjectCard
                         title="Subprefeitura - CS"
                         description="Gerenciador de funcionários desenvolvido com Laravel para armezar dados eventualmente utilizados em dashboards BI e alimentação de planilhas excel."
-                        imgPath="imgs/arts/prefeituraBrasao.png"
+                        imgPath="/imgs/arts/prefeituraBrasao.png"
                         linkText="Linkedin"
                         linkUrl="https://www.linkedin.com/posts/ricardo-hemmel-a6b97626b_laravel-bancodedados-gestaetopaeqblica-activity-7258146049670701056-2ifH/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEIsQXMB8DWi25tJE5Zmfd4N_5CF_MhPoDs"
                     />
@@ -153,7 +153,7 @@ export function ProjectsSession() {
                     <ProjectCard
                         title="Power BI - Dashboard"
                         description="Dashboard gerado através dos dados gerados do sistema em laravel que detalha todo o funcionamento da subprefeitura como cargos, idades, unidades, entre outros."
-                        imgPath="imgs/arts/powerBiLogo.png"
+                        imgPath="/imgs/arts/powerBiLogo.png"
                         linkText="Linkedin"
                         linkUrl="https://www.linkedin.com/posts/ricardo-hemmel-a6b97626b_transformando-dados-em-ferramentas-estrat%C3%A9gicas-activity-7278029008695382016-IsdF/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEIsQXMB8DWi25tJE5Zmfd4N_5CF_MhPoDs"
                     />
@@ -170,7 +170,7 @@ export function ProjectsSession() {
                     <ProjectCard
                         title="Diana Imóveis"
                         description="Site desenvolvido com Wordpress e o plugin construtor Elementor com mecânicas programadas de hierarquia de imóveis, favoritos, e exibições dinâmicas."
-                        imgPath="imgs/arts/Diana.png"
+                        imgPath="/imgs/arts/Diana.png"
                         linkText="Visitar Página"
                         linkUrl="https://dianaimoveis.com/"
                     />
@@ -179,7 +179,7 @@ export function ProjectsSession() {
                     <ProjectCard
                         title="Automação Web Python"
                         description="Automação web para lançamento de chamados repetitivos agregando valor ao tempo de serviço e evitando esforços que podem ser poupados com atribuição do trabalho à tecnologia."
-                        imgPath="imgs/arts/pythonLogo.png"
+                        imgPath="/imgs/arts/pythonLogo.png"
                         linkText="Linkedin"
                         linkUrl="https://www.linkedin.com/posts/ricardo-hemmel-a6b97626b_automa%C3%A7%C3%A3o-web-desenvolvi-uma-aplica%C3%A7%C3%A3o-em-activity-7293646673765924865-rXGJ/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEIsQXMB8DWi25tJE5Zmfd4N_5CF_MhPoDs"
                     />
@@ -188,7 +188,7 @@ export function ProjectsSession() {
                     <ProjectCard
                         title="Design Figma"
                         description="Utilização do Figma para a criação de projetos web, além de usá-lo para expor ideias e produtos, como em posts e outras apresentações visuais."
-                        imgPath="imgs/arts/figmaLogo.png"
+                        imgPath="/imgs/arts/figmaLogo.png"
                         modalText="Exemplo"
                         modalTarget="alphaModal" />
 
@@ -205,13 +205,12 @@ export function ProjectsSession() {
                     <ProjectCard
                         title="Em breve"
                         description="Sigo desenvolvendo mais aplicações e aprendendo mais tecnologias para me tornar um funcionário de valor."
-                        imgPath="imgs/arts/workingOnIt.jpg"
+                        imgPath="/imgs/arts/workingOnIt.jpg"
                     />
 
                 </div>
             </div>
 
         </section>
-
     )
 }
