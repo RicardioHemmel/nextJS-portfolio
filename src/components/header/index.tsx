@@ -85,7 +85,7 @@ export function Header() {
                         </ul>
                         <div className={`nav-spacing d-flex align-items-center me-4 ${styles.contactHeader}`}>
                             <img src="imgs/icons/telIcon.png" alt="ícone de telefone" className={`${styles.telIcon} me-3`} />
-                            <a href="https://api.whatsapp.com/send?phone=5511944880786" target="_blank"
+                            <a href="tel:+5511944880786" target="_blank"
                                 className={`nav-link yellow-text text-nowrap`} onClick={closeMenu}>11 94488-0786</a>
                         </div>
                     </div>
