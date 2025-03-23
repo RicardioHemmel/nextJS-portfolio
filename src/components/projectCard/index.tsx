@@ -8,7 +8,6 @@ interface ProjectCardProps {
     modalTarget?: string;
     linkText?: string;
     linkUrl?: string;
-    style?: React.CSSProperties;
 }
 
 export function ProjectCard({
@@ -19,10 +18,9 @@ export function ProjectCard({
     modalTarget,
     linkText,
     linkUrl,
-    style = {},
 }: ProjectCardProps) {
     return (
-        <div className={`card ${styles.projectCard} col col-9 col-md-8 col-lg-3 px-0 border-0 rounded-5`} style={style}>
+        <div className={`card ${styles.projectCard} col col-9 col-md-8 col-lg-3 px-0 border-0 rounded-5`}>
             <div className={`d-flex justify-content-center ${styles.backgroundProjects} rounded-4 py-5`}>
                 <img src={imgPath} className={`card-img-top ${styles.imgCardResize}`} alt={title} />
             </div>

@@ -208,22 +208,6 @@ export function ProjectsSession() {
                         imgPath="imgs/arts/workingOnIt.jpg"
                     />
 
-                    {/* Projeto 2 */}
-                    <ProjectCard
-                        title="Em breve"
-                        description="Sigo desenvolvendo mais aplicações e aprendendo mais tecnologias para me tornar um funcionário de valor."
-                        imgPath="imgs/arts/workingOnIt.jpg"
-                        style={{ opacity: 0 }}
-                    />
-
-                    {/* Projeto 3 */}
-                    <ProjectCard
-                        title="Em breve"
-                        description="Sigo desenvolvendo mais aplicações e aprendendo mais tecnologias para me tornar um funcionário de valor."
-                        imgPath="imgs/arts/workingOnIt.jpg"
-                        style={{ opacity: 0 }}
-                    />
-
                 </div>
             </div>
 
