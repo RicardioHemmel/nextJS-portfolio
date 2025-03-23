@@ -2,7 +2,6 @@
 
 import styles from "./Header.module.css";
 import { useState, useEffect } from "react"; 
-import Link from "next/link";
 
 export function Header() {
     // Definição de Estados
